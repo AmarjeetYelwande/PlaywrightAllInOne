@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <!-- Tests E2E Playwright : ils exigent l application VIVANTE sur http://localhost:5140
+             et un navigateur installe. `IsTestProject=false` les sort de
+             `dotnet test` tout en les laissant COMPILER en CI. C est un choix
+             explicite, pas un oubli :
+               - sans compilation ils pourriraient en silence ;
+               - sans application ils echoueraient a chaque run pour une raison
+                 etrangere au code, et un rouge permanent ne se lit plus.
+             Pour les jouer en local : demarrer l app, puis executer directement le
+             binaire auto-heberge (verifie) :
+               dotnet build -c Release && \
+               ./TicketBookingApp.EndToEndTests/bin/Release/net10.0/TicketBookingApp.EndToEndTests -->
+        <IsTestProject>false</IsTestProject>
+        <RootNamespace>API.Automation</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Playwright" Version="1.62.0" />
+        <PackageReference Include="Reqnroll.xunit.v3" Version="3.3.4" />
+        <PackageReference Include="xunit.v3" Version="4.0.1" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="4.0.0">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Shouldly" Version="5.0.0-preview.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Automation.Framework\Automation.Framework.csproj" />
+    </ItemGroup>
+
+</Project>
