@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Message Component Message popup is populated with details 1`] = `
+<div
+  data-testid="message"
+>
+  <div
+    class="form-row"
+  >
+    <div
+      class="col-10"
+    >
+      <p>
+        <span>
+          From: 
+        </span>
+        Mark Winteringham
+      </p>
+    </div>
+    <div
+      class="col-2"
+    >
+      <p>
+        <span>
+          Phone: 
+        </span>
+        01821 912812
+      </p>
+    </div>
+  </div>
+  <div
+    class="form-row"
+  >
+    <div
+      class="col-12"
+    >
+      <p>
+        <span>
+          Email: 
+        </span>
+        mark@mwtestconsultancy.co.uk
+      </p>
+    </div>
+  </div>
+  <div
+    class="form-row"
+  >
+    <div
+      class="col-12"
+    >
+      <p>
+        <span>
+          Subject description here
+        </span>
+      </p>
+    </div>
+  </div>
+  <div
+    class="form-row"
+  >
+    <div
+      class="col-12"
+    >
+      <p>
+        Lorem ipsum dolores est
+      </p>
+    </div>
+  </div>
+  <div
+    class="form-row"
+  >
+    <div
+      class="col-12"
+    >
+      <button
+        class="btn btn-outline-primary"
+      >
+        Close
+      </button>
+    </div>
+  </div>
+</div>
+`;

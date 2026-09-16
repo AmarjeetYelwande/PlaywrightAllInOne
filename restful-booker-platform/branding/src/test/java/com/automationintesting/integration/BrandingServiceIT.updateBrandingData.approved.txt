@@ -1,0 +1,22 @@
+{
+    "address": {
+        "county": "Update county",
+        "line1": "Update line1",
+        "line2": "Update line2",
+        "postCode": "Update post code",
+        "postTown": "Update post town"
+    },
+    "contact": {
+        "email": "update@email.com",
+        "name": "Update name",
+        "phone": "9999999999"
+    },
+    "description": "Description update",
+    "directions": "Updated directions",
+    "logoUrl": "https://www.valid.com/link/to/logo",
+    "map": {
+        "latitude": 50.0,
+        "longitude": 50.0
+    },
+    "name": "Updated hotel name"
+}
