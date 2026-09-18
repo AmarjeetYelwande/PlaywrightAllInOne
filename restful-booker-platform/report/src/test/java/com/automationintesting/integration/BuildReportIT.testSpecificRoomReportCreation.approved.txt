@@ -1,0 +1,14 @@
+{
+    "report": [
+        {
+            "end": "2018-01-05",
+            "start": "2018-01-01",
+            "title": "Unavailable"
+        },
+        {
+            "end": "2018-02-05",
+            "start": "2018-02-01",
+            "title": "Unavailable"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "request" : {
+    "method" : "POST",
+    "path" : "/room",
+    "parameters" : ["room_name", "type", "beds", "accessible", "details"]
+  },
+  "sql" : {
+    "database" : "h2-room",
+    "query" : "INSERT INTO ROOMS(room_name, type, beds, accessible, details) VALUES(${room_name}, ${type}, ${beds}, ${accessible}, ${details});"
+  }
+}

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Notification Component Notification renders alert inbox when there are unread notifications 1`] = `
+<DocumentFragment>
+  <a
+    class="nav-link"
+    data-discover="true"
+    href="/admin/messages"
+  >
+    <i
+      class="fa fa-inbox"
+      style="font-size: 1.5rem;"
+    >
+      <span
+        class="notification"
+      >
+        34
+      </span>
+    </i>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Notification Component Notification renders plain inbox when no unread notifications 1`] = `
+<DocumentFragment>
+  <a
+    class="nav-link"
+    data-discover="true"
+    href="/admin/messages"
+  >
+    <i
+      class="fa fa-inbox"
+      style="font-size: 1.5rem;"
+    />
+  </a>
+</DocumentFragment>
+`;

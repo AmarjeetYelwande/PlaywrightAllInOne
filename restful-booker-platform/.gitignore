@@ -1,0 +1,28 @@
+**/node_modules
+**/.DS_Store
+**/npm-debug.log
+*.log
+**/node
+*.gz
+**/*.received*
+
+# IntelliJ
+.idea
+*.iml
+
+# Java
+target/
+
+#VS Code
+.project
+*.project
+.settings/
+*.settings/
+*.classpath
+.vscode/
+
+# ui
+ui/public/js
+
+# ApprovalTests
+**/.approval_tests_temp/

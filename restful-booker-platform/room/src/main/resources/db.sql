@@ -1,0 +1,1 @@
+CREATE TABLE ROOMS ( roomid int NOT NULL AUTO_INCREMENT, room_name varchar(255), type varchar(255), beds int, accessible boolean, image varchar(2000), description varchar(2000), features varchar(100) ARRAY, roomPrice int, primary key (roomid));
