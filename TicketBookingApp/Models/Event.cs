@@ -1,4 +1,6 @@
-﻿namespace TicketBookingApp.Models;
+﻿using System;
+
+namespace TicketBookingApp.Models;
 
 public class Event
 {
