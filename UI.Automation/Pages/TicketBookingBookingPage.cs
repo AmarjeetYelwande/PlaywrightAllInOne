@@ -5,7 +5,7 @@ using Shouldly;
 
 namespace UI.Automation.Pages;
 
-public class TicketBookingBookingPage(Hooks hooks)
+public class TicketBookingBookingPage(Hooks.Hooks hooks)
 {
     private readonly IPage _user = hooks.User;
 

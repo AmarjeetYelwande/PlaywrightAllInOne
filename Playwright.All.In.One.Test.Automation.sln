@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation.Framework", "Aut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Automation", "API.Automation\API.Automation.csproj", "{2D019346-5C51-436C-9922-3336D6695782}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketBookingApp", "TicketBookingApp\TicketBookingApp.csproj", "{BCBFF351-81C7-4484-8E4E-589DFDE066ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{2D019346-5C51-436C-9922-3336D6695782}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D019346-5C51-436C-9922-3336D6695782}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D019346-5C51-436C-9922-3336D6695782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCBFF351-81C7-4484-8E4E-589DFDE066ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBFF351-81C7-4484-8E4E-589DFDE066ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBFF351-81C7-4484-8E4E-589DFDE066ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBFF351-81C7-4484-8E4E-589DFDE066ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

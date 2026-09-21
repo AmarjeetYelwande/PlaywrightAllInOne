@@ -4,7 +4,7 @@ using Microsoft.Playwright;
 using Shouldly;
 
 namespace UI.Automation.Pages;
-public class TicketBookingHomePage(Hooks hooks)
+public class TicketBookingHomePage(Hooks.Hooks hooks)
 {
     private readonly IPage _user = hooks.User;
 

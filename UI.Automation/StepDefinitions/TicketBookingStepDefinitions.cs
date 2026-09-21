@@ -1,5 +1,4 @@
 ﻿using System.Threading.Tasks;
-using Automation.Framework.Hooks;
 using Microsoft.Playwright;
 using Reqnroll;
 using Shouldly;
@@ -9,7 +8,7 @@ namespace UI.Automation.StepDefinitions;
 
 [Binding]
 public class TicketBookingStepDefinitions(
-    Hooks hooks,
+    Hooks.Hooks hooks,
     TicketBookingHomePage homePage,
     TicketBookingEventDetailsPage eventDetailsPage,
     TicketBookingBookingPage bookingPage)

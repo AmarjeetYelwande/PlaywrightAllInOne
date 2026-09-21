@@ -1,7 +1,8 @@
-﻿using Microsoft.Playwright;
+﻿using System.Threading.Tasks;
+using Microsoft.Playwright;
 using Reqnroll;
 
-namespace Automation.Framework.Hooks
+namespace UI.Automation.Hooks
 {
     [Binding]
     public class Hooks
