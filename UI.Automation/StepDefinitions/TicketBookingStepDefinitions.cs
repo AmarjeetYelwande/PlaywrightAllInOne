@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Threading;
+using System.Threading.Tasks;
 using Microsoft.Playwright;
 using Reqnroll;
 using Shouldly;
@@ -43,6 +44,7 @@ public class TicketBookingStepDefinitions(
     public async Task ThenIShouldSeeTheEventTitle(string expectedTitle)
     {
         await eventDetailsPage.AssertEventTitle(expectedTitle);
+        Thread.Sleep(10000);
     }
 
     [Given(@"I navigate to the booking page for event with id (.*)")]
