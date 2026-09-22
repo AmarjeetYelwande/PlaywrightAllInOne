@@ -1,2 +1,6 @@
-TicketBookingApp/bin
-TicketBookingApp/obj
+obj/
+bin/
+bin/Debug
+Debug/
+Release/
+.vscode/
