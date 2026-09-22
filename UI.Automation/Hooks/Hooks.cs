@@ -13,10 +13,12 @@ namespace UI.Automation.Hooks
         public async Task RegisterSingleInstancePractitioner()
         {
             IPlaywright playwright = await Playwright.CreateAsync();
-            IBrowser browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
-            {
-                Headless = false 
-            });
+            IBrowser browser = await playwright.Chromium.LaunchAsync();
+
+            // IBrowser browser = await playwright.Chromium.LaunchAsync(new BrowserTypeLaunchOptions
+            // {
+            //     Headless = false 
+            // });
             IBrowserContext context1 = await browser.NewContextAsync();
             User = await context1.NewPageAsync(); 
         }
