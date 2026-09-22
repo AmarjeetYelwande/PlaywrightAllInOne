@@ -1,2 +1,6 @@
-UI.Automation/bin
-UI.Automation/obj
+obj/
+bin/
+bin/Debug
+Debug/
+Release/
+.vscode/

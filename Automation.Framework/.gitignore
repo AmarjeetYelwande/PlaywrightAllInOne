@@ -1,2 +1,6 @@
-Automation.Framework/bin
-Automation.Framework/obj
+obj/
+bin/
+bin/Debug
+Debug/
+Release/
+.vscode/

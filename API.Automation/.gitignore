@@ -1,0 +1,6 @@
+obj/
+bin/
+bin/Debug
+Debug/
+Release/
+.vscode/
