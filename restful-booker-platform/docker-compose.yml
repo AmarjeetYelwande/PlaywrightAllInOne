@@ -1,0 +1,36 @@
+services:
+  rbp-booking:
+    build: ./booking
+    ports:
+      - "3000:3000"
+    restart: always
+  rbp-room:
+    build: ./room
+    ports:
+      - "3001:3001"
+    restart: always
+  rbp-branding:
+    build: ./branding
+    ports:
+      - "3002:3002"
+    restart: always
+  rbp-assets:
+    build: ./assets
+    ports:
+      - "80:80"
+    restart: always
+  rbp-auth:
+    build: ./auth
+    ports:
+      - "3004:3004"
+    restart: always
+  rbp-report:
+    build: ./report
+    ports:
+      - "3005:3005"
+    restart: always
+  rbp-message:
+    build: ./message
+    ports:
+      - "3006:3006"
+    restart: always

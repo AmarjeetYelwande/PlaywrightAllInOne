@@ -1,0 +1,29 @@
+﻿@page "/"
+@inject EventService EventService
+
+<h1>Upcoming Events</h1>
+
+@if (_events == null)
+{
+    <p>Loading events...</p>
+}
+else
+{
+    <ul>
+        @foreach (Event eventItem in _events)
+        {
+            <li>
+                <a href="eventdetails/@eventItem.Id">@eventItem.Title</a> - @eventItem.Date.ToShortDateString() - @eventItem.Price.ToString("C")
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    private IEnumerable<Event>? _events;
+
+    protected override void OnInitialized()
+    {
+        _events = EventService.GetEvents();
+    }
+}

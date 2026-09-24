@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`MessageList Component Clicking message shows message popup 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="messages"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm-2 rowHeader"
+        >
+          <p>
+            Name
+          </p>
+        </div>
+        <div
+          class="col-sm-9 rowHeader"
+        >
+          <p>
+            Subject
+          </p>
+        </div>
+        <div
+          class="col-sm-1"
+        />
+      </div>
+      <div
+        class="row detail read-true"
+        id="message0"
+      >
+        <div
+          class="col-sm-2"
+          data-testid="message0"
+        >
+          <p>
+            Mark Winteringham
+          </p>
+        </div>
+        <div
+          class="col-sm-9"
+          data-testid="messageDescription0"
+        >
+          <p>
+            Subject description here
+          </p>
+        </div>
+        <div
+          class="col-sm-1"
+        >
+          <span
+            class="fa fa-remove roomDelete"
+            data-testid="DeleteMessage0"
+          />
+        </div>
+      </div>
+      <div
+        class="row detail read-false"
+        id="message1"
+      >
+        <div
+          class="col-sm-2"
+          data-testid="message1"
+        >
+          <p>
+            James Dean
+          </p>
+        </div>
+        <div
+          class="col-sm-9"
+          data-testid="messageDescription1"
+        >
+          <p>
+            Another description here
+          </p>
+        </div>
+        <div
+          class="col-sm-1"
+        >
+          <span
+            class="fa fa-remove roomDelete"
+            data-testid="DeleteMessage1"
+          />
+        </div>
+      </div>
+      <div
+        class="row detail read-true"
+        id="message2"
+      >
+        <div
+          class="col-sm-2"
+          data-testid="message2"
+        >
+          <p>
+            Janet Samson
+          </p>
+        </div>
+        <div
+          class="col-sm-9"
+          data-testid="messageDescription2"
+        >
+          <p>
+            Lorem ipsum dolores est
+          </p>
+        </div>
+        <div
+          class="col-sm-1"
+        >
+          <span
+            class="fa fa-remove roomDelete"
+            data-testid="DeleteMessage2"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`MessageList Component Renders the list of messages correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="messages"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm-2 rowHeader"
+        >
+          <p>
+            Name
+          </p>
+        </div>
+        <div
+          class="col-sm-9 rowHeader"
+        >
+          <p>
+            Subject
+          </p>
+        </div>
+        <div
+          class="col-sm-1"
+        />
+      </div>
+      <div
+        class="row detail read-true"
+        id="message0"
+      >
+        <div
+          class="col-sm-2"
+          data-testid="message0"
+        >
+          <p>
+            Mark Winteringham
+          </p>
+        </div>
+        <div
+          class="col-sm-9"
+          data-testid="messageDescription0"
+        >
+          <p>
+            Subject description here
+          </p>
+        </div>
+        <div
+          class="col-sm-1"
+        >
+          <span
+            class="fa fa-remove roomDelete"
+            data-testid="DeleteMessage0"
+          />
+        </div>
+      </div>
+      <div
+        class="row detail read-false"
+        id="message1"
+      >
+        <div
+          class="col-sm-2"
+          data-testid="message1"
+        >
+          <p>
+            James Dean
+          </p>
+        </div>
+        <div
+          class="col-sm-9"
+          data-testid="messageDescription1"
+        >
+          <p>
+            Another description here
+          </p>
+        </div>
+        <div
+          class="col-sm-1"
+        >
+          <span
+            class="fa fa-remove roomDelete"
+            data-testid="DeleteMessage1"
+          />
+        </div>
+      </div>
+      <div
+        class="row detail read-true"
+        id="message2"
+      >
+        <div
+          class="col-sm-2"
+          data-testid="message2"
+        >
+          <p>
+            Janet Samson
+          </p>
+        </div>
+        <div
+          class="col-sm-9"
+          data-testid="messageDescription2"
+        >
+          <p>
+            Lorem ipsum dolores est
+          </p>
+        </div>
+        <div
+          class="col-sm-1"
+        >
+          <span
+            class="fa fa-remove roomDelete"
+            data-testid="DeleteMessage2"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

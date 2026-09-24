@@ -1,0 +1,1039 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`RoomDetails Component Room details can be switched out of edit mode 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="room-details"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm-10"
+        >
+          <h2>
+            Room: 101
+          </h2>
+        </div>
+        <div
+          class="col-sm-2"
+        >
+          <button
+            class="btn btn-outline-primary float-sm-end"
+            type="button"
+          >
+            Edit
+          </button>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm-6"
+        >
+          <p>
+            Type: 
+            <span>
+              Single
+            </span>
+          </p>
+        </div>
+        <div
+          class="col-sm-6"
+        >
+          <p>
+            Description: 
+            <span>
+              Aenean porttitor mauris sit amet lacinia molestie....
+            </span>
+          </p>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm-6"
+        >
+          <p>
+            Accessible: 
+            <span>
+              true
+            </span>
+          </p>
+          <p>
+            Features: 
+            <span>
+              TV, WiFi, Safe
+            </span>
+          </p>
+          <p>
+            Room price: 
+            <span>
+              100
+            </span>
+          </p>
+        </div>
+        <div
+          class="col-sm-6"
+        >
+          <p>
+            Image:
+          </p>
+          <img
+            alt="Room: 101 preview image"
+            src="https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          First name
+        </p>
+      </div>
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          Last name
+        </p>
+      </div>
+      <div
+        class="col-sm-1 rowHeader"
+      >
+        <p>
+          Price
+        </p>
+      </div>
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          Deposit paid?
+        </p>
+      </div>
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          Check in
+        </p>
+      </div>
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          Check out
+        </p>
+      </div>
+      <div
+        class="col-sm-1"
+      />
+    </div>
+    <div />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`RoomDetails Component Room details can render validation errors 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="room-details"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm-9"
+        >
+          <h2>
+            Room: 
+          </h2>
+          <input
+            id="roomName"
+            type="text"
+            value="101"
+          />
+        </div>
+        <div
+          class="col-sm-3"
+        >
+          <button
+            class="btn btn-outline-danger float-sm-end"
+            id="cancelEdit"
+            type="button"
+          >
+            Cancel
+          </button>
+          <button
+            class="btn btn-outline-primary float-sm-end"
+            id="update"
+            style="margin-right: 10px;"
+            type="button"
+          >
+            Update
+          </button>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm-6"
+        >
+          <label
+            class="editLabel"
+            for="type"
+          >
+            Type: 
+          </label>
+          <select
+            class="form-control"
+            id="type"
+          >
+            <option
+              value="Single"
+            >
+              Single
+            </option>
+            <option
+              value="Twin"
+            >
+              Twin
+            </option>
+            <option
+              value="Double"
+            >
+              Double
+            </option>
+            <option
+              value="Family"
+            >
+              Family
+            </option>
+            <option
+              value="Suite"
+            >
+              Suite
+            </option>
+          </select>
+          <label
+            class="editLabel"
+            for="accessible"
+          >
+            Accessible: 
+          </label>
+          <select
+            class="form-control"
+            id="accessible"
+          >
+            <option
+              value="false"
+            >
+              false
+            </option>
+            <option
+              value="true"
+            >
+              true
+            </option>
+          </select>
+          <label
+            class="editLabel"
+            for="roomPrice"
+          >
+            Room price: 
+          </label>
+          <input
+            class="form-control"
+            id="roomPrice"
+            type="text"
+            value="100"
+          />
+        </div>
+        <div
+          class="col-sm-6"
+        >
+          <label
+            class="editLabel"
+            for="description"
+          >
+            Description: 
+          </label>
+          <textarea
+            aria-label="Description"
+            class="form-control"
+            id="description"
+            rows="5"
+          >
+            Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.
+          </textarea>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm-6"
+        >
+          <label
+            class="editLabel"
+          >
+            Room features: 
+          </label>
+          <div
+            class="row"
+          >
+            <div
+              class="col-4"
+            >
+              <div
+                class="form-check form-check-inline"
+              >
+                <input
+                  class="form-check-input"
+                  id="wifiCheckbox"
+                  name="featureCheck"
+                  type="checkbox"
+                  value="WiFi"
+                />
+                <label
+                  class="form-check-label"
+                  for="wifiCheckbox"
+                >
+                  WiFi
+                </label>
+              </div>
+            </div>
+            <div
+              class="col-4"
+            >
+              <div
+                class="form-check form-check-inline"
+              >
+                <input
+                  class="form-check-input"
+                  id="tvCheckbox"
+                  name="featureCheck"
+                  type="checkbox"
+                  value="TV"
+                />
+                <label
+                  class="form-check-label"
+                  for="tvCheckbox"
+                >
+                  TV
+                </label>
+              </div>
+            </div>
+            <div
+              class="col-4"
+            >
+              <div
+                class="form-check form-check-inline"
+              >
+                <input
+                  class="form-check-input"
+                  id="radioCheckbox"
+                  name="featureCheck"
+                  type="checkbox"
+                  value="Radio"
+                />
+                <label
+                  class="form-check-label"
+                  for="radioCheckbox"
+                >
+                  Radio
+                </label>
+              </div>
+            </div>
+            <div
+              class="col-4"
+            >
+              <div
+                class="form-check form-check-inline"
+              >
+                <input
+                  class="form-check-input"
+                  id="refreshmentsCheckbox"
+                  name="featureCheck"
+                  type="checkbox"
+                  value="Refreshments"
+                />
+                <label
+                  class="form-check-label"
+                  for="refreshmentsCheckbox"
+                >
+                  Refreshments
+                </label>
+              </div>
+            </div>
+            <div
+              class="col-4"
+            >
+              <div
+                class="form-check form-check-inline"
+              >
+                <input
+                  class="form-check-input"
+                  id="safeCheckbox"
+                  name="featureCheck"
+                  type="checkbox"
+                  value="Safe"
+                />
+                <label
+                  class="form-check-label"
+                  for="safeCheckbox"
+                >
+                  Safe
+                </label>
+              </div>
+            </div>
+            <div
+              class="col-4"
+            >
+              <div
+                class="form-check form-check-inline"
+              >
+                <input
+                  class="form-check-input"
+                  id="viewsCheckbox"
+                  name="featureCheck"
+                  type="checkbox"
+                  value="Views"
+                />
+                <label
+                  class="form-check-label"
+                  for="viewsCheckbox"
+                >
+                  Views
+                </label>
+              </div>
+            </div>
+            <div
+              class="col-4"
+            >
+              <div
+                class="form-check form-check-inline"
+              >
+                <input
+                  checked=""
+                  class="form-check-input"
+                  id="tv, wifi, safeCheckbox"
+                  name="featureCheck"
+                  type="checkbox"
+                  value="TV, WiFi, Safe"
+                />
+                <label
+                  class="form-check-label"
+                  for="tv, wifi, safeCheckbox"
+                >
+                  TV, WiFi, Safe
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-sm-6"
+        >
+          <label
+            class="editLabel"
+            for="image"
+          >
+            Image: 
+          </label>
+          <input
+            class="form-control"
+            id="image"
+            type="text"
+            value="https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg"
+          />
+        </div>
+      </div>
+      <div
+        class="alert alert-danger"
+        style="margin-top: 15px;"
+      >
+        <p>
+          Type can only contain the room options Single, Double, Twin, Family or Suite
+        </p>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          First name
+        </p>
+      </div>
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          Last name
+        </p>
+      </div>
+      <div
+        class="col-sm-1 rowHeader"
+      >
+        <p>
+          Price
+        </p>
+      </div>
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          Deposit paid?
+        </p>
+      </div>
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          Check in
+        </p>
+      </div>
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          Check out
+        </p>
+      </div>
+      <div
+        class="col-sm-1"
+      />
+    </div>
+    <div />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`RoomDetails Component Room details component renders 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="room-details"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm-10"
+        >
+          <h2>
+            Room: 101
+          </h2>
+        </div>
+        <div
+          class="col-sm-2"
+        >
+          <button
+            class="btn btn-outline-primary float-sm-end"
+            type="button"
+          >
+            Edit
+          </button>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm-6"
+        >
+          <p>
+            Type: 
+            <span>
+              Single
+            </span>
+          </p>
+        </div>
+        <div
+          class="col-sm-6"
+        >
+          <p>
+            Description: 
+            <span>
+              Aenean porttitor mauris sit amet lacinia molestie....
+            </span>
+          </p>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm-6"
+        >
+          <p>
+            Accessible: 
+            <span>
+              true
+            </span>
+          </p>
+          <p>
+            Features: 
+            <span>
+              TV, WiFi, Safe
+            </span>
+          </p>
+          <p>
+            Room price: 
+            <span>
+              100
+            </span>
+          </p>
+        </div>
+        <div
+          class="col-sm-6"
+        >
+          <p>
+            Image:
+          </p>
+          <img
+            alt="Room: 101 preview image"
+            src="https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          First name
+        </p>
+      </div>
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          Last name
+        </p>
+      </div>
+      <div
+        class="col-sm-1 rowHeader"
+      >
+        <p>
+          Price
+        </p>
+      </div>
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          Deposit paid?
+        </p>
+      </div>
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          Check in
+        </p>
+      </div>
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          Check out
+        </p>
+      </div>
+      <div
+        class="col-sm-1"
+      />
+    </div>
+    <div />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`RoomDetails Component Room details switches into edit mode 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="room-details"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm-9"
+        >
+          <h2>
+            Room: 
+          </h2>
+          <input
+            id="roomName"
+            type="text"
+            value="101"
+          />
+        </div>
+        <div
+          class="col-sm-3"
+        >
+          <button
+            class="btn btn-outline-danger float-sm-end"
+            id="cancelEdit"
+            type="button"
+          >
+            Cancel
+          </button>
+          <button
+            class="btn btn-outline-primary float-sm-end"
+            id="update"
+            style="margin-right: 10px;"
+            type="button"
+          >
+            Update
+          </button>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm-6"
+        >
+          <label
+            class="editLabel"
+            for="type"
+          >
+            Type: 
+          </label>
+          <select
+            class="form-control"
+            id="type"
+          >
+            <option
+              value="Single"
+            >
+              Single
+            </option>
+            <option
+              value="Twin"
+            >
+              Twin
+            </option>
+            <option
+              value="Double"
+            >
+              Double
+            </option>
+            <option
+              value="Family"
+            >
+              Family
+            </option>
+            <option
+              value="Suite"
+            >
+              Suite
+            </option>
+          </select>
+          <label
+            class="editLabel"
+            for="accessible"
+          >
+            Accessible: 
+          </label>
+          <select
+            class="form-control"
+            id="accessible"
+          >
+            <option
+              value="false"
+            >
+              false
+            </option>
+            <option
+              value="true"
+            >
+              true
+            </option>
+          </select>
+          <label
+            class="editLabel"
+            for="roomPrice"
+          >
+            Room price: 
+          </label>
+          <input
+            class="form-control"
+            id="roomPrice"
+            type="text"
+            value="100"
+          />
+        </div>
+        <div
+          class="col-sm-6"
+        >
+          <label
+            class="editLabel"
+            for="description"
+          >
+            Description: 
+          </label>
+          <textarea
+            aria-label="Description"
+            class="form-control"
+            id="description"
+            rows="5"
+          >
+            Aenean porttitor mauris sit amet lacinia molestie. In posuere accumsan aliquet. Maecenas sit amet nisl massa. Interdum et malesuada fames ac ante.
+          </textarea>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm-6"
+        >
+          <label
+            class="editLabel"
+          >
+            Room features: 
+          </label>
+          <div
+            class="row"
+          >
+            <div
+              class="col-4"
+            >
+              <div
+                class="form-check form-check-inline"
+              >
+                <input
+                  class="form-check-input"
+                  id="wifiCheckbox"
+                  name="featureCheck"
+                  type="checkbox"
+                  value="WiFi"
+                />
+                <label
+                  class="form-check-label"
+                  for="wifiCheckbox"
+                >
+                  WiFi
+                </label>
+              </div>
+            </div>
+            <div
+              class="col-4"
+            >
+              <div
+                class="form-check form-check-inline"
+              >
+                <input
+                  class="form-check-input"
+                  id="tvCheckbox"
+                  name="featureCheck"
+                  type="checkbox"
+                  value="TV"
+                />
+                <label
+                  class="form-check-label"
+                  for="tvCheckbox"
+                >
+                  TV
+                </label>
+              </div>
+            </div>
+            <div
+              class="col-4"
+            >
+              <div
+                class="form-check form-check-inline"
+              >
+                <input
+                  class="form-check-input"
+                  id="radioCheckbox"
+                  name="featureCheck"
+                  type="checkbox"
+                  value="Radio"
+                />
+                <label
+                  class="form-check-label"
+                  for="radioCheckbox"
+                >
+                  Radio
+                </label>
+              </div>
+            </div>
+            <div
+              class="col-4"
+            >
+              <div
+                class="form-check form-check-inline"
+              >
+                <input
+                  class="form-check-input"
+                  id="refreshmentsCheckbox"
+                  name="featureCheck"
+                  type="checkbox"
+                  value="Refreshments"
+                />
+                <label
+                  class="form-check-label"
+                  for="refreshmentsCheckbox"
+                >
+                  Refreshments
+                </label>
+              </div>
+            </div>
+            <div
+              class="col-4"
+            >
+              <div
+                class="form-check form-check-inline"
+              >
+                <input
+                  class="form-check-input"
+                  id="safeCheckbox"
+                  name="featureCheck"
+                  type="checkbox"
+                  value="Safe"
+                />
+                <label
+                  class="form-check-label"
+                  for="safeCheckbox"
+                >
+                  Safe
+                </label>
+              </div>
+            </div>
+            <div
+              class="col-4"
+            >
+              <div
+                class="form-check form-check-inline"
+              >
+                <input
+                  class="form-check-input"
+                  id="viewsCheckbox"
+                  name="featureCheck"
+                  type="checkbox"
+                  value="Views"
+                />
+                <label
+                  class="form-check-label"
+                  for="viewsCheckbox"
+                >
+                  Views
+                </label>
+              </div>
+            </div>
+            <div
+              class="col-4"
+            >
+              <div
+                class="form-check form-check-inline"
+              >
+                <input
+                  checked=""
+                  class="form-check-input"
+                  id="tv, wifi, safeCheckbox"
+                  name="featureCheck"
+                  type="checkbox"
+                  value="TV, WiFi, Safe"
+                />
+                <label
+                  class="form-check-label"
+                  for="tv, wifi, safeCheckbox"
+                >
+                  TV, WiFi, Safe
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-sm-6"
+        >
+          <label
+            class="editLabel"
+            for="image"
+          >
+            Image: 
+          </label>
+          <input
+            class="form-control"
+            id="image"
+            type="text"
+            value="https://www.mwtestconsultancy.co.uk/img/testim/room2.jpg"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          First name
+        </p>
+      </div>
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          Last name
+        </p>
+      </div>
+      <div
+        class="col-sm-1 rowHeader"
+      >
+        <p>
+          Price
+        </p>
+      </div>
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          Deposit paid?
+        </p>
+      </div>
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          Check in
+        </p>
+      </div>
+      <div
+        class="col-sm-2 rowHeader"
+      >
+        <p>
+          Check out
+        </p>
+      </div>
+      <div
+        class="col-sm-1"
+      />
+    </div>
+    <div />
+  </div>
+</DocumentFragment>
+`;

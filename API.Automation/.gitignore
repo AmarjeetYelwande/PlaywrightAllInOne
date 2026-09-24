@@ -1,0 +1,7 @@
+obj/
+bin/
+bin/Debug
+Debug/
+Release/
+.vscode/
+/Features/AppTesting.feature.cs

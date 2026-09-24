@@ -1,0 +1,22 @@
+{
+    "messages": [
+        {
+            "id": 1,
+            "name": "James Dean",
+            "read": false,
+            "subject": "Booking enquiry"
+        },
+        {
+            "id": 2,
+            "name": "Mark",
+            "read": true,
+            "subject": "Subject line goes in here for display"
+        },
+        {
+            "id": 3,
+            "name": "Mark",
+            "read": false,
+            "subject": "Subject line goes in here for display"
+        }
+    ]
+}
